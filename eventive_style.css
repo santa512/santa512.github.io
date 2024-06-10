@@ -2332,28 +2332,33 @@ div.Eventive--tickets.Eventive--tickets--noTickets > div:nth-child(1) {
   align-items: center;
 }
 .btn-welcome {
+  width: 25%;
+  height: 40px;
+  margin: 0 12px;
+}
+.btn-welcome > button {
   background-color: var(--color-primary);
   border: none;
   font-size: 1.5em;
-  width: 25%;
+  height: 40px;
   padding: 4px;
-  margin: 0 12px;
 }
 
-.btn-welcome:hover {
+.btn-welcome > button:hover {
   background-color: var(--color-primary-l1);
 }
 
-.btn-welcome:active {
+.btn-welcome:active > button {
   background-color: var(--color-primary-d1);
 }
 
 @media only screen and (max-width: 600px) {
   .welcome-btn-box {
     flex-direction: column !important;
-    width: 60% !important;
+    width: 90% !important;
   }
   .btn-welcome {
     width: 100%;
+    margin-block: 10px;
   }
 }
