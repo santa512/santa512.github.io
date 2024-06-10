@@ -2339,9 +2339,10 @@ div.Eventive--tickets.Eventive--tickets--noTickets > div:nth-child(1) {
 .btn-welcome > button {
   background-color: var(--color-primary);
   border: none;
-  font-size: 1.5em;
+  font-size: 1.1em;
   height: 40px;
   padding: 4px;
+  width: 100%;
 }
 
 .btn-welcome > button:hover {
