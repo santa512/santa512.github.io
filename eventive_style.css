@@ -13,6 +13,14 @@
   src: url(https://dxfest.com/eventive/fonts/PostGrotesk-Light.otf);
 }
 
+:root {
+  --color-primary: #cad02b;
+  --color-primary-l1: #cdd163;
+  --color-primary-d1: #b5bb11;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
 html,
 body {
   background: #000 !important;
@@ -253,7 +261,7 @@ h2#passes
   > div:nth-child(1)
   > h1:nth-child(1) {
   font-family: bbRollerHeadline !important;
-  width: fit-content !important;
+  width: 100% !important;
   background-color: #cad02b !important;
   padding: 2px 6px !important;
   text-transform: uppercase !important;
@@ -2324,17 +2332,26 @@ div.Eventive--tickets.Eventive--tickets--noTickets > div:nth-child(1) {
   align-items: center;
 }
 .btn-welcome {
+  background-color: var(--color-primary);
+  border: none;
   font-size: 1.5em;
   width: 25%;
   padding: 4px;
   margin: 0 12px;
 }
 
+.btn-welcome:hover {
+  background-color: var(--color-primary-l1);
+}
+
+.btn-welcome:active {
+  background-color: var(--color-primary-d1);
+}
+
 @media only screen and (max-width: 600px) {
   .welcome-btn-box {
-    flex-direction: column;
-    width: 60%;
-    background-color: white;
+    flex-direction: column !important;
+    width: 60% !important;
   }
   .btn-welcome {
     width: 100%;
