@@ -230,7 +230,7 @@ function checks() {
                 }
         }
         if (getUrl() === 'welcome') {
-                if (document.querySelector(".three-menu") == null) {
+                if (document.querySelectaor(".three-menu") == null) {
                         threeMenuNav()
                         removeElement()
                         splitText()

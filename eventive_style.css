@@ -661,7 +661,7 @@ h2#passes
   font-family: bbRollerHeadline;
 }
 
-#app
+/* #app
   > div
   > div
   > div:nth-child(6)
@@ -670,7 +670,7 @@ h2#passes
   > div.tenant-injected-html,
 #app > div > div > div:nth-child(6) > div > div > div.tenant-injected-html {
   display: none;
-}
+} */
 
 .film-header {
   margin: 20px 10px;
